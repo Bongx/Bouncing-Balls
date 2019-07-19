@@ -1,0 +1,85 @@
+* {
+    background: #2980b9;
+  }
+  .container {
+    background: #ff6543;
+    color: rgb(228, 149, 31);
+    flex-wrap: wrap;
+  }
+  .balls {
+    border-radius: 50%;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 70%;
+    animation-name: jump;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  #navy {
+    background: navy;
+    left: 10%;
+    animation-timing-function: cubic-bezier(1, 0.5, 0.6, 2.1);
+  }
+  #yellow {
+    background: yellow;
+    left: 20%;
+    animation-timing-function: cubic-bezier(0.8, 0.6, 0.6, 2);
+  }
+  #brown {
+    background: brown;
+    left: 30%;
+    animation-timing-function: cubic-bezier(0.6, 0.7, 0.6, 1.9);
+  }
+  #red {
+    background: red;
+    left: 40%;
+    animation-timing-function: cubic-bezier(0.4, 0.8, 0.6, 1.8);
+  }
+  
+  #green {
+    background: green;
+    left: 50%;
+    animation-timing-function: cubic-bezier(0.2, 0.9, 0.6, 1.6);
+  }
+  #gray {
+    background: gray;
+    left: 60%;
+    animation-timing-function: cubic-bezier(0.4, 0.8, 0.6, 1.6);
+  }
+  #orange {
+    background: orange;
+    left: 70%;
+    animation-timing-function: cubic-bezier(0.6, 0.7, 0.6, 1.7);
+  }
+  #pink {
+    background: pink;
+    left: 80%;
+    animation-timing-function: cubic-bezier(0.8, 0.6, 0.6, 1.8);
+  }
+  #black {
+    background: black;
+    left: 90%;
+    animation-timing-function: cubic-bezier(1, 0.5, 0.6, 1.9);
+  }
+  
+  @keyframes jump {
+    50% {
+      top: 10%;
+    }
+    100% {
+      bottom: 50%;
+    }
+  }
+  
+  h2 {
+    width: 100px;
+    height: 80;
+    justify-content: center;
+  }
+  @keyframes move {
+    50% {
+      left: 50%;
+    }
+  }
+  
